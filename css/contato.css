@@ -1,0 +1,186 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.section-banner {
+    height: 117px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20vw;
+    align-items: center;
+    background: #2E948A;
+
+}
+
+#logoheader {
+    margin-left: 6vw;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 7vw;
+    gap: 3vw;
+}
+
+.nav-menu {
+    display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+
+.corpo {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 82px;
+    padding-bottom: 39px;
+}
+
+.formulario {
+    margin-left: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 419px;
+    margin-top: 44px;
+}
+
+#nome {
+    border-radius: 7px;
+    border: 1px solid #686868;
+    padding: 6px 6px 6px 18px;
+}
+
+#email {
+    border-radius: 7px;
+    border: 1px solid #686868;
+    padding: 6px 6px 6px 18px;
+}
+
+#mensagem {
+    border-radius: 7px;
+    border: 1px solid #686868;
+    padding: 6px 6px 180px 18px;
+}
+
+#buttonform {
+    width: 108px;
+    height: 32px;
+    background: #FF4081;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.imgcontato {
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    margin-right: 5vw;
+}
+
+#imgcontato {
+    width: 100%
+}
+
+.rodape {
+    height: 207px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2E948A;
+}
+
+.navig {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.fmenu {
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    margin-right: 5vw;
+}
+
+.buttons a {
+    background: #419488;
+    border-radius: 62px;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 71px 12px 71px;
+    text-decoration: none;
+    width: 70%;
+}
+
+
+
+@media (max-width: 880px) {
+    .navig {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:525px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:725px) {
+    .imgcontato {
+        display: none;
+    }
+
+    #form {
+        width: 80vw;
+    }
+
+    .rodape {
+        flex-direction: column;
+        height: 300px;
+    }
+}
